@@ -9,16 +9,17 @@ body, html{
 }
 
 nav img{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     display: block;
     margin: auto;
+    margin-top: 1.5em;
 }
 
 header{
     justify-content: center;
     align-content: center;
     display: flex;
-    margin-top: 1em;
 }
 
 .contenido, .izq, .der{
@@ -26,7 +27,8 @@ header{
     background-color: rgb(201, 201, 201);
     margin: 1em;
     height: 750px;
-    border: 3px solid rgb(82, 80, 80); 
+    border: 3px solid rgb(82, 80, 80);
+    border-radius: 10px; 
 }
 
 .contenido{
@@ -66,4 +68,14 @@ header{
 
 .izq ul li a:hover{
     color: rgb(85, 87, 87);
+}
+
+/* Layout derecha */
+
+.der img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 200px;
+    margin-top: 1em;
 }
