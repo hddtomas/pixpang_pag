@@ -41,6 +41,10 @@ header{
     width: 230px;
 }
 
+h1, h2{
+    text-shadow: rgb(168, 165, 165) 2px 4px;
+}
+
 /* Layout contenido */
 
 .contenido h1{
@@ -49,6 +53,20 @@ header{
 
 .contenido p{
     margin: 1em;
+}
+
+.imagen{
+    flex-flow: row nowrap;
+    display: flex;
+}
+
+.imagen img{
+    width: 100%;
+    max-width: 350px;
+    max-height: 250px;
+    margin-left: 1em;
+    border: 3px solid rgb(82, 80, 80);
+    border-radius: 3px;
 }
 
 /* Layout izquierda */
