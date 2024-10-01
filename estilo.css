@@ -34,11 +34,13 @@ header{
 .contenido{
     display: block;
     width: 800px;
+    min-width: 550px;
 }
 
 .izq, .der{
     display: block;
     width: 230px;
+    min-width: 160px;
 }
 
 h1, h2{
@@ -56,12 +58,13 @@ h1, h2{
 }
 
 .imagen{
-    flex-flow: row nowrap;
+    flex-flow: nowrap;
     display: flex;
 }
 
 .imagen img{
     width: 100%;
+    height: auto;
     max-width: 350px;
     max-height: 250px;
     margin-left: 1em;
