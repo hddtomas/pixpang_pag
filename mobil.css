@@ -1,4 +1,8 @@
 @media(max-width:1000px){
+    nav img{
+        margin-bottom: 1em;
+    }
+
     header{
         display: block;
         justify-content: center;
