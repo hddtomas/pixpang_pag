@@ -14,22 +14,24 @@
         margin: auto;
         width: auto;
         height: 300px;
-        min-width: 500px;
+        min-width: 300px;
         max-width: 700px;
+        display: flex;
     }
 
     .izq h2{
+        margin-right: 0;
         margin-bottom: 0;
     }
 
     .izq ul{
         margin-top: 0;
-        display: flex;
+        display: block;
     }
     
     .izq li{
         margin-top: 0;
-        padding-right: 2em;
+        padding-right: 1em;
     }
 
     /* Layout contenido mobil */
@@ -38,9 +40,10 @@
         margin: auto;
         margin-top: 1em;
         width: auto;
-        height: 700px;
-        min-width: 500px;
+        height: auto;
+        min-width: 300px;
         max-width: 700px;
+        max-height: 800px;
     }
 
     .imagen{
@@ -50,5 +53,15 @@
     .imagen img{
         display: block;
         margin: auto;
+    }
+
+    /* Layout derecha mobil */
+    .der{
+        margin: auto;
+        width: auto;
+        height: 300px;
+        min-width: 300px;
+        max-width: 700px;
+        margin-top: 1em;
     }
 }
