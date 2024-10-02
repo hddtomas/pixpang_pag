@@ -72,6 +72,10 @@ h1, h2{
     border-radius: 3px;
 }
 
+.imagen p{
+    margin-top: 2.7em;
+}
+
 /* Layout izquierda */
 
 .izq h2{
