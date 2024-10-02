@@ -55,6 +55,10 @@
         margin: auto;
     }
 
+    .imagen p{
+        margin-top: 1em;
+    }
+
     /* Layout derecha mobil */
     .der{
         margin: auto;
