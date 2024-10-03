@@ -31,6 +31,14 @@ header{
     border-radius: 10px; 
 }
 
+h1, h2{
+    border-bottom: 3px solid rgb(117, 115, 115);
+}
+
+h2{
+    padding-bottom: 0.2em;
+}
+
 .contenido{
     display: block;
     width: 800px;
