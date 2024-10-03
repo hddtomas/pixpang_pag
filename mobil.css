@@ -10,6 +10,7 @@
     }
 
     /* Layout izquierda mobil */
+
     .izq{
         margin: auto;
         width: auto;
@@ -21,7 +22,7 @@
 
     .izq h2{
         margin-right: 0;
-        margin-bottom: 0;
+        margin-bottom: 0.4em;
     }
 
     .izq ul{
