@@ -66,22 +66,25 @@ h1, h2{
 }
 
 .imagen{
-    flex-flow: nowrap;
-    display: flex;
+    display: block;
 }
 
 .imagen img{
+    display: block;
     width: 100%;
-    height: auto;
     max-width: 350px;
     max-height: 250px;
-    margin-left: 1em;
+    margin: auto;
+    margin-top: 1em;
     border: 3px solid rgb(82, 80, 80);
     border-radius: 3px;
 }
 
 .imagen p{
-    margin-top: 2.7em;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(83, 81, 81);
+    margin-top: 0.2em;
 }
 
 /* Layout izquierda */
