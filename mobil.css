@@ -37,6 +37,10 @@
 
     /* Layout contenido mobil */
 
+    .imagencontainer{
+        gap: 0.5em;
+    }
+
     .contenido{
         margin: auto;
         margin-top: 1em;
