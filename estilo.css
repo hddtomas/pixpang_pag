@@ -65,11 +65,22 @@ h1, h2{
     margin: 1em;
 }
 
+.contenido ul, .contenido li{
+    margin-right: 1em;
+}
+
+.imagencontainer{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
 .imagen{
     display: block;
 }
 
 .imagen img{
+    box-sizing: border-box;
     display: block;
     width: 100%;
     max-width: 350px;
