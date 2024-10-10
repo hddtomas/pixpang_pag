@@ -51,6 +51,10 @@
         max-height: 800px;
     }
 
+    .contenido button{
+        margin-bottom: 2em;
+    }
+
     /* Layout derecha mobil */
     .der{
         margin: auto;
