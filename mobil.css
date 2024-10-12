@@ -1,3 +1,13 @@
+@media(max-width:1050px){
+    .imagencontainer{
+        gap: 2em;
+    }
+
+    .imagen img{
+        width: 230px;
+    }
+}
+
 @media(max-width:1000px){
     nav img{
         margin-bottom: 1em;
@@ -38,7 +48,7 @@
     /* Layout contenido mobil */
 
     .imagencontainer{
-        gap: 0.5em;
+        gap: 2em;
     }
 
     .contenido{
@@ -63,5 +73,11 @@
         min-width: 300px;
         max-width: 700px;
         margin-top: 1em;
+    }
+
+    @media(max-width:700px){
+        .imagen img{
+            width: 200px;
+        }
     }
 }
