@@ -58,6 +58,8 @@ h1, h2{
 /* Layout contenido */
 
 .contenido h1{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     text-align: center;
 }
 
@@ -70,8 +72,7 @@ h1, h2{
 }
 
 .contenido button{
-    display: block;
-    margin: auto;
+    display: inline-block;
     width: 120px;
     height: 40px;
     font-family: "Nunito Sans", sans-serif;
@@ -117,6 +118,10 @@ h1, h2{
     font-weight: bold;
     color: rgb(83, 81, 81);
     margin-top: 0.2em;
+}
+
+.botones{
+    text-align: center;
 }
 
 /* Layout izquierda */
