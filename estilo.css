@@ -124,6 +124,36 @@ h1, h2{
     text-align: center;
 }
 
+#fondoespecial{
+    width: 250px;
+}
+
+#subtituloespecial{
+    margin: 0;
+}
+
+.botonespagina{
+    display: flex; 
+}
+
+.imagen{
+    margin-bottom: auto;
+}
+
+.botonespagina{
+    justify-content: center;
+}
+
+.botonespagina p{
+    color: rgb(83, 81, 81);
+}
+
+#inusable{
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
 /* Layout izquierda */
 
 .izq h2{
