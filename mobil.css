@@ -22,6 +22,7 @@
     /* Layout izquierda mobil */
 
     .izq{
+        justify-content: center;
         margin: auto;
         width: auto;
         height: 300px;
@@ -79,5 +80,20 @@
         .imagen img{
             width: 200px;
         }
+    }
+}
+
+@media(max-width:500px){
+    .izq{
+        font-size: 0.6em;
+        height: 200px;
+    }
+
+    .lista{
+        margin-right: 1em;
+    }
+
+    .imagen img{
+        width: 150px;
     }
 }
