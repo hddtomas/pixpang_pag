@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/pixpang.ico">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="mobil.css">
+    <title>Compilar - PiX Pang</title>
+</head>
+<body>
+    <nav>
+        <img src="img/titulo.png" alt="">
+    </nav>
+    <header>
+        <div class="izq">
+            <div class="lista">
+                <h2>Descargas</h2>
+                <ul>
+                    <li><a href="versiones/21.html">2.1 (actual)</a></li>
+                    <li><a href="versiones/212010.html">2.1 (2010)</a></li>
+                    <li><a href="versiones/20.html">2.0</a></li>
+                    <li><a href="versiones/16d.html">1.6d</a></li>
+                    <li><a href="">1.6c</a></li>
+                    <li><a href="">1.6b</a></li>
+                    <li><a href="">Otras versiones</a></li>
+                </ul>  
+            </div>  
+            <div class="lista">
+                <h2>Información</h2> 
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="">Sobre PiX Pang</a></li>
+                    <li><a href="fondos/p1.html">Fondos</a></li>
+                    <li><a href="">?</a></li>
+                </ul>  
+            </div>  
+            <div class="lista">
+                <h2>Guías</h2>      
+                <ul>
+                    <li><b>Compilar</b></li>
+                    <li><a href="">?</a></li>
+                </ul>   
+            </div> 
+        </div>
+        <div class="contenido">
+            <h1>Como compilar el juego - 2.0 y anteriores</h1>
+            <p>Antes de empezar, cabe aclarar que se necesitan una serie de requisitos para compilar:</p>
+            <ul>
+                <li>Máquina virtual con <b>Windows XP</b></li>
+                <li>Una versión de PiX Pang que contenga la carpeta <b>src</b></li>
+                <li>Una versión de Fénix anterior o igual a la <b>0.84</b> (<a href="https://web.archive.org/web/20050211004716/https://fenix.divsite.net/">Acá</a> la descarga)</li>
+                <li>Un poco de <b>sentido común</b> y <b>conocimiento básico</b></li>
+            </ul>
+            <p>Una vez todo eso, se debe extraer el archivo donde está Fénix y buscar los archivos <b>FXI.exe</b>, <b>SDL.dll</b>, <b>SDL.mixer.dll</b>, <b>zlib.dll</b> y <b>FXC.exe</b>. Finalmente, los tenemos que pasar a la carpeta <b>src</b>.</p>
+            <p>Ahora, para compilar, se tendrá que crear un archivo bat con el siguiente código:</p>
+            <div class="codeblock">
+                <p>echo off<br>
+                    cls<br>
+                    echo Compilando pixpang.prg<br>
+                    fxc -g pixpang.prg<br>
+                    echo pixpang.prg compilado<br>
+                    pause</p>
+            </div>
+            <p>Dependiendo de la versión, puede llegar a fallar por la falta de librerías. En tal caso, solo hay que buscar la librería necesaria en la carpeta <b>dll</b> de Fénix. Si todo estuvo bien, se generará un archivo llamado <b>pixpang.dcb</b>.</p>
+            <p>Finalmente, para ejecutarlo, se crea otro bat con el siguiente código:</p>
+            <div class="codeblock">
+                <p>echo off<br>
+                    cls<br>
+                    echo Abriendo pixpang.dcb<br>
+                    fxi pixpang.dcb<br>
+                </p>
+            </div>
+        </div>
+        <div class="der">
+            <div>
+                <a href="https://www.pixjuegos.com/"><img src="img/pixjuegos.png" alt="" id="pixjuegos"></a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
