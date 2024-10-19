@@ -154,6 +154,19 @@ h1, h2{
     opacity: 0.5;
 }
 
+.codeblock{
+    margin: 2em;
+    margin-top: 1em;
+    background-color: rgb(71, 62, 62);
+    border-radius: 4px;
+}
+
+.codeblock p{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #c8cfca;
+}
+
 /* Layout izquierda */
 
 .izq h2{
