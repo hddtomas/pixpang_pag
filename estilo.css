@@ -55,6 +55,10 @@ h1, h2{
     text-shadow: rgb(168, 165, 165) 2px 4px;
 }
 
+b{
+    color: rgb(41, 38, 38);
+}
+
 /* Layout contenido */
 
 .contenido h1{
@@ -69,6 +73,10 @@ h1, h2{
 
 .contenido ul, .contenido li{
     margin-right: 1em;
+}
+
+.contenido ul li::marker{
+    color: rgb(49, 47, 47);
 }
 
 .contenido button{
