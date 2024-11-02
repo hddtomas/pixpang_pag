@@ -32,7 +32,9 @@ header{
 }
 
 h1, h2{
+    color: rgb(22, 22, 22);
     border-bottom: 3px solid rgb(117, 115, 115);
+    text-shadow: rgb(168, 165, 165) 2px 4px;
 }
 
 h2{
@@ -49,10 +51,6 @@ h2{
     display: block;
     width: 230px;
     min-width: 160px;
-}
-
-h1, h2{
-    text-shadow: rgb(168, 165, 165) 2px 4px;
 }
 
 b{
