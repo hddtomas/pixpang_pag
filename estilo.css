@@ -201,6 +201,16 @@ b{
     color: #c8cfca;
 }
 
+.contenido h2{
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+#imgchobits{
+    max-width: 250px;
+}
+
 /* Layout izquierda */
 
 .izq h2{
